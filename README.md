@@ -86,10 +86,14 @@ We evaluated the models using:
 
 ## 3. Ablation Study
 
-We tested the impact of removing different components from AC-SASRec to analyze:
-- Order information
-- Distance information
-- Attention calibration effects
+We performed an ablation study on AC-SASRec by removing one calibration component at a time to analyze its impact on recommendation performance.
+
+The experiments included:
+- Without Order Calibration
+- Without Distance Calibration
+- Without Adversarial Calibration
+
+The results showed that the full AC-SASRec model achieved the best overall performance.
 
 ---
 
